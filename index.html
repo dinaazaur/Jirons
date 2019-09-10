@@ -8,73 +8,13 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="styles/owl.carousel.css">
+<link rel="stylesheet" href="styles/owl.theme.default.css">
 <title>Jirons</title>
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <style>
-  body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-size: 1rem;
-  }
-
-  img{
-    width: fit-content;
-  }
-  .item{
-    width: 380px;
-    height: 458px;
-    justify-content: space-evenly;
-  }
-
-  .navbar {
-    height: 119px;
-  }
-
-  .btn {
-    border-radius: 38px;
-    padding: 18px 40px;
-    font-size: 14px;
-  }
-
-  span {
-    display: block;
-    font-size: 60px;
-    font-weight: 400;
-    color: #5b39c9;
-  }
-
-  .altNob {
-    margin-top: 100px;
-  }
-
-  .interactive {
-    height: 662px;
-    background-image: url(images/btns/userInteract.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-  }
-
-  .power {
-    background-image: url(images/btns/power.png);
-    background-position: right 0;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 548px;
-  }
-
-  .interact-cta {
-    height: 370px;
-  }
-
-  .c40 {
-    font-size: 40px;
-  }
-
-  .header {
-    background-image: url('./images/bg.png');
-    background-size: cover;
-  }
-
+  
 </style>
 </head>
 
@@ -82,6 +22,15 @@
   <!--                          Header                         -->
   <header class="header">
     <div class="container">
+      <div>
+        <img src="images/header/01.svg" alt="" class="star number1">
+        <img src="images/header/02.svg" alt="" class="star number2">
+        <img src="images/header/03.svg" alt="" class="star number3">
+        <img src="images/header/04.svg" alt="" class="star number4">
+        <img src="images/header/05.svg" alt="" class="star number5">
+        <img src="images/header/06.svg" alt="" class="star number6">
+        <img src="images/header/07.svg" alt="" class="star number7">
+      </div>
       <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
         <a class="navbar-brand text-hide" href="#">
           <img src="./images/logo.png">Jirons</a>
@@ -104,7 +53,7 @@
             </li>
           </ul>
         </div>
-        <a href="#" class="btn btn-outline-light btn-lg text-secondary">Get Jirons</a>
+        <a href="#" class="btn btn-light btn-lg text-secondary">Get Jirons</a>
       </nav>
       <div class="row">
         <div class="col-5 align-self-center interact-cta">
@@ -115,7 +64,7 @@
           <a href="#" class="btn btn-lg btn-danger mr-2">Download App</a>
           <a href="#" class="btn btn-outline-primary btn-lg">Discover More</a>
         </div>
-        <div class="col-4 offset-2">
+        <div class="col-4 offset-2 phone">
           <img src="./images/Assets.png" alt="phone">
         </div>
       </div>
@@ -124,26 +73,92 @@
 
   <!--                           features                            -->
 
-  <section class="conteiner text-center mt-5">
-    <h2>App Advance Features</h2>
-    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est laborum perspiciatis unde.</p>
-    <div class="row justify-content-center">
-      <div class="col-lg-3 item d-flex flex-column align-items-center">
-        <img src="images/features/pazzle.png">
-        <h3 class="w-75">New Artwork Unveiled</h3>
-        <p class="w-75"> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
-      </div>
-      <div class="col-lg-3 item d-flex flex-column align-items-center">
-        <img src="images/features/pc.png">
-        <h3 class="w-75">Company Growth Strategy</h3>
-        <p class="w-75">There are many variations of passages of lorem Ipsum but majority have suffered.</p>
-      </div>
-      <div class="col-lg-3 item d-flex flex-column align-items-center">
-        <img src="images/features/idea.png">
-        <h3 class="w-75">Perfect Application</h3>
-        <p class="w-75">Intergration There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <h2>App Advance Features</h2>
+        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id
+          est
+          laborum perspiciatis unde.</p>
       </div>
     </div>
+    <div class="row justify-content-center">
+      <div class="col justify-content-between">
+        <div class="owl-carousel owl-theme text-center row">
+
+          <div class="item features-item">
+            <img src="images/features/pazzle.png">
+            <h3>New Artwork Unveiled</h3>
+            <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item inner">
+            <img src="images/features/pc.png">
+            <h3>Company Growth Strategy</h3>
+            <p>There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/idea.png">
+            <h3>Perfect Application</h3>
+            <p>Intergration There are many variations of passages of lorem Ipsum but majority have
+              suffered.
+            </p>
+          </div>
+          <div class="item features-item ">
+            <img src="images/features/pazzle.png">
+            <h3>New Artwork Unveiled</h3>
+            <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item inner">
+            <img src="images/features/pc.png">
+            <h3>Company Growth Strategy</h3>
+            <p>There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/idea.png">
+            <h3>Perfect Application</h3>
+            <p>Intergration There are many variations of passages of lorem Ipsum but majority have
+              suffered.
+            </p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/pazzle.png">
+            <h3>New Artwork Unveiled</h3>
+            <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item inner">
+            <img src="images/features/pc.png">
+            <h3>Company Growth Strategy</h3>
+            <p>There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/idea.png">
+            <h3>Perfect Application</h3>
+            <p>Intergration There are many variations of passages of lorem Ipsum but majority have
+              suffered.
+            </p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/pazzle.png">
+            <h3>New Artwork Unveiled</h3>
+            <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item inner">
+            <img src="images/features/pc.png">
+            <h3>Company Growth Strategy</h3>
+            <p>There are many variations of passages of lorem Ipsum but majority have suffered.</p>
+          </div>
+          <div class="item features-item">
+            <img src="images/features/idea.png">
+            <h3>Perfect Application</h3>
+            <p>Intergration There are many variations of passages of lorem Ipsum but majority have
+              suffered.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
 
   </section>
   <!--                           Info               -->
@@ -200,11 +215,31 @@
       </div>
     </div>
   </section>
-  <script src="./js/jquery.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        nav: true,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    })
+    
+  </script>
   <script src="./js/pooper.js"></script>
-  <script src="./js/owl.carousel.js"></script>
   <script src="./bootstrap/js/bootstrap.js"></script>
-  <script src="./js/main.js"></script>
 </body>
 
 </html>
