@@ -3,89 +3,95 @@
 
 <head></head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
 <link rel="stylesheet" href="./styles/main.css">
 <link rel="stylesheet" href="styles/owl.carousel.css">
 <link rel="stylesheet" href="styles/owl.theme.default.css">
+<link rel="stylesheet" href="styles/magnific-popup.css">
 <title>Jirons</title>
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.js"></script>
 <style>
-  
+
 </style>
 </head>
 
 <body>
   <!--                          Header                         -->
-  <header class="header">
-    <div class="container">
-      <div>
-        <img src="images/header/01.svg" alt="" class="star number1">
-        <img src="images/header/02.svg" alt="" class="star number2">
-        <img src="images/header/03.svg" alt="" class="star number3">
-        <img src="images/header/04.svg" alt="" class="star number4">
-        <img src="images/header/05.svg" alt="" class="star number5">
-        <img src="images/header/06.svg" alt="" class="star number6">
-        <img src="images/header/07.svg" alt="" class="star number7">
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+
+  <div class="container nav-outer">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-md-2 col-4">
         <a class="navbar-brand text-hide" href="#">
           <img src="./images/logo.png">Jirons</a>
-        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">App Screens</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
-        <a href="#" class="btn btn-light btn-lg text-secondary">Get Jirons</a>
+      </div>
+      <nav class="col-1 col-lg-7 menu">
+        <ul class="active flex-grow-1 justify-content-between">
+          <li class="current-item">
+            <a href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">App Screens</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+        </ul>
+        <a class="toggle-nav" href="#">&#9776;</a>
       </nav>
-      <div class="row">
-        <div class="col-5 align-self-center interact-cta">
-          <h1>Jironis is for your internet app business</h1>
-          <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim
-            id
-            est laborum perspiciatis unde.</p>
+      <div class="col-md-3 col-5 text-right">
+        <a href="#" class="btn btn-light btn-md-lg btn-sm text-secondary extrabutton">Get Jirons</a>
+      </div>
+    </div>
+  </div>
+
+
+  <header class="container header">
+    <div class="row">
+      <div class="col-lg-6 col-md-7 col-12 text-align-md-center align-self-center interact-cta mb-5">
+        <h1>Jironis is for your internet app business</h1>
+        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim
+          id
+          est laborum perspiciatis unde.</p>
+        <div class="btns-header">
           <a href="#" class="btn btn-lg btn-danger mr-2">Download App</a>
           <a href="#" class="btn btn-outline-primary btn-lg">Discover More</a>
         </div>
-        <div class="col-4 offset-2 phone">
+      </div>
+      <div class="col-lg-5 col-md-5 col text-center offset-lg-1 phone">
+        <div class="phone">
           <img src="./images/Assets.png" alt="phone">
         </div>
       </div>
     </div>
   </header>
 
+
+
+
   <!--                           features                            -->
 
   <section class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-8 offset-md-2 col my-5 text-center">
         <h2>App Advance Features</h2>
-        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id
+        <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
+          mollit lorem ipsum anim
+          id
           est
           laborum perspiciatis unde.</p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col justify-content-between">
-        <div class="owl-carousel owl-theme text-center row">
-
+      <div class="col-md-10 col-sm-7">
+        <div class="owl-carousel owl-one owl-theme">
           <div class="item features-item">
             <img src="images/features/pazzle.png">
             <h3>New Artwork Unveiled</h3>
@@ -120,7 +126,7 @@
               suffered.
             </p>
           </div>
-          <div class="item features-item">
+          <div class="item features-item ">
             <img src="images/features/pazzle.png">
             <h3>New Artwork Unveiled</h3>
             <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
@@ -137,23 +143,8 @@
               suffered.
             </p>
           </div>
-          <div class="item features-item">
-            <img src="images/features/pazzle.png">
-            <h3>New Artwork Unveiled</h3>
-            <p> There are many variations of passages of lorem Ipsum but majority have suffered.</p>
-          </div>
-          <div class="item features-item inner">
-            <img src="images/features/pc.png">
-            <h3>Company Growth Strategy</h3>
-            <p>There are many variations of passages of lorem Ipsum but majority have suffered.</p>
-          </div>
-          <div class="item features-item">
-            <img src="images/features/idea.png">
-            <h3>Perfect Application</h3>
-            <p>Intergration There are many variations of passages of lorem Ipsum but majority have
-              suffered.
-            </p>
-          </div>
+
+
 
         </div>
       </div>
@@ -163,83 +154,239 @@
   </section>
   <!--                           Info               -->
 
-  <div class="altNob border-top border-secondary">
-    <section class="container  text-center mt-5">
-      <div class="row mt-5">
-        <div class="col-2 offset-1 d-flex flex-column">
-          <p><span>4789</span>Downloads</p>
-        </div>
-        <div class="col-2 offset-1 d-flex flex-column">
-          <p><span>6400</span>Likes</p>
-
-        </div>
-        <div class="col-2 offset-1 d-flex flex-column">
-          <p><span>900</span>5 star rating</p>
-
-        </div>
-        <div class="col-2 offset-1 d-flex flex-column">
-          <p><span>266</span>Awards</p>
-
-        </div>
+  <div class="altNob border-top border-secondary"></div>
+  <section class="container  text-center mt-5">
+    <div class="row mt-5">
+      <div class="col-lg-2 col-md-3 col-6 offset-lg-1 d-flex flex-column">
+        <p><span>4789</span>Downloads</p>
       </div>
-    </section>
+      <div class="col-lg-2 col-md-3 col-6 offset-lg-1 d-flex flex-column">
+        <p><span>6400</span>Likes</p>
+
+      </div>
+      <div class="col-lg-2 col-md-3 col-6 offset-lg-1 d-flex flex-column">
+        <p><span>900</span>5 star rating</p>
+
+      </div>
+      <div class="col-lg-2 col-md-3 col-6 offset-lg-1 d-flex flex-column">
+        <p><span>266</span>Awards</p>
+
+      </div>
+    </div>
+  </section>
+  </div>
   </div>
 
   <!--                  Interactive                   -->
 
-  <section class="interactive">
-    <div class="conteiner">
-      <div class="row">
-        <div class="col-5 offset-7">
-          <h3 class="w-75 my-5 c40">Interact With Your Users On Every Single Platform</h3>
-          <p class="w-75">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-            alteration in
-            some form, by injected humour.</p>
-          <a href="#" class="btn btn-outline-primary btn-lg">Get started</a>
-        </div>
+  <section class="container mt-5 interactive">
+    <div class="row">
+      <div class="col-md-7">
+        <img src="images/interactPhones.png" alt="phones">
+      </div>
+      <div class="lg-g col-md-5 col-12 align-self-md-center">
+        <h3>Interact With Your Users On Every Single Platform</h3>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour.</p>
+        <a href="#" class="btn btn-outline-primary btn-lg">Get started</a>
       </div>
     </div>
   </section>
 
   <!--              Power                   -->
-  <section class="power">
-    <div class="conteiner">
+  <section class="container mt-5 power">
+    <div class="row">
+      <div class="lg-g col-md-5 align-self-md-center">
+        <h3>Interact With Your Users On Every Single Platform</h3>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour.</p>
+        <a href="#" class="btn btn-outline-primary btn-lg">Get started</a>
+      </div>
+      <div class="col-md-7 col12">
+        <img src="images/powerWindows.png" alt="windows">
+      </div>
+    </div>
+  </section>
+
+
+  <!--              Film               -->
+  <div class="film-outer">
+    <section class="container">
       <div class="row">
-        <div class="col-5 offset-1">
-          <h3 class="w-75 my-5 c40">Interact With Your Users On Every Single Platform</h3>
-          <p class="w-75">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-            alteration in
-            some form, by injected humour.</p>
-          <a href="#" class="btn btn-outline-primary btn-lg">Get started</a>
+        <div class="col video text-center">
+          <a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><img src="images/video/play.png"
+              alt=""></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--                Apps               -->
+  <section class="container text-center my-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="title-apps">
+          <h3>Jironis App Screens</h3>
+          <p class="mt-3">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem
+            ipsum anim id est laborum perspiciatis unde.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="wrap-corousel-outer">
+    <div class="wrap-carousel">
+      <div class="owl-carousel owl-two owl-theme">
+        <div class="item">
+          <img src="images/phonecarousel.png" class="photocarousel">
+        </div>
+        <div class="item">
+          <img src="images/phonecarousel.png" class="photocarousel">
+        </div>
+        <div class="item">
+          <img src="images/phonecarousel.png" class="photocarousel">
+        </div>
+        <div class="item">
+          <img src="images/phonecarousel.png" class="photocarousel">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--                        CTA                      -->
+
+
+  <section class="container text-center">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="title-apps">
+          <h4>Choose Plans & Pricing</h4>
+          <p class="py-5">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem
+            ipsum anim
+            id est laborum perspiciatis unde.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="wrapi">
+          <a href="#">Monthly</a>
+          <a href="#">Yearly</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-around">
+        <div class="card-container">
+          <h6>Business <span>$30</span></h6>
+          <ul>
+            <li>10 pages</li>
+            <li>500 gb storage</li>
+            <li>10 sdd Database</li>
+            <li> Free coustom domain</li>
+            <li> 24/7 free support</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary">Download App</a>
+        </div>
+        <div class="card-container">
+          <div>
+            <h6>Business <span>$30</span></h6>
+          </div>
+          <ul>
+            <li>10 pages</li>
+            <li>500 gb storage</li>
+            <li>10 sdd Database</li>
+            <li> Free coustom domain</li>
+            <li> 24/7 free support</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary">Download App</a>
+        </div>
+        <div class="card-container">
+          <h6>Business <span>$30</span></h6>
+          <ul>
+            <li>10 pages</li>
+            <li>500 gb storage</li>
+            <li>10 sdd Database</li>
+            <li> Free coustom domain</li>
+            <li> 24/7 free support</li>
+          </ul>
+          <a href="#" class="btn btn-outline-primary">Download App</a>
         </div>
       </div>
     </div>
   </section>
 
+
+  <!-- Testimonails -->
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="./js/pooper.js"></script>
+  <script src="js/owl.carousel.js"></script>
   <script>
+
+    jQuery(document).ready(function () {
+      jQuery('.toggle-nav').click(function (e) {
+        jQuery(this).toggleClass('active');
+        jQuery('.menu ul').toggleClass('active');
+
+        e.preventDefault();
+      });
+    });
     $(document).ready(function () {
-      var owl = $('.owl-carousel');
+      $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+        disableOn: 700,
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+      });
+    });
+    $(document).ready(function () {
+      var owl = $('.owl-one');
       owl.owlCarousel({
-        margin: 10,
+        margin: 0,
         nav: true,
         loop: true,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
         responsive: {
           0: {
             items: 1
           },
-          600: {
-            items: 3
+          770: {
+            items: 2
           },
-          1000: {
+          995: {
             items: 3
           }
         }
       })
-    })
-    
+    });
+    $(document).ready(function () {
+      var owl = $('.owl-two');
+      owl.owlCarousel({
+        margin: 0,
+        nav: true,
+        loop: true,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+          9: {
+            items: 1
+          }
+        }
+      })
+    });
+  
+
   </script>
-  <script src="./js/pooper.js"></script>
-  <script src="./bootstrap/js/bootstrap.js"></script>
+
 </body>
 
 </html>
