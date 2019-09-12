@@ -24,9 +24,7 @@ img {
           justify-content: space-evenly;
 }
 
-.interactive{
-  background: url('../images/bg-interact.png') center center no-repeat;
-}
+
 
 .btn {
   border-radius: 38px;
