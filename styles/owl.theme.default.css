@@ -38,9 +38,9 @@
     zoom: 1;
     *display: inline; }
     .owl-theme .owl-dots .owl-dot span {
-      width: 10px;
-      height: 10px;
-      margin: 5px 7px;
+      width: 7px;
+      height: 7px;
+      margin: 39px 3px;
       background: #D6D6D6;
       display: block;
       -webkit-backface-visibility: visible;
@@ -48,6 +48,7 @@
       border-radius: 30px; }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background-color: #5b39c9;
+      transform:scale(1.2);
        }
        .owl-theme .owl-dots .owl-dot{
        outline: none;
