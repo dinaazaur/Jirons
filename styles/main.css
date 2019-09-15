@@ -297,7 +297,7 @@ img {
 }
 
 .film-outer {
-  background-image: url("/images/video/bg.png");
+  background-image: url("../images/bg.png");
   padding: 230px 0;
 }
 
