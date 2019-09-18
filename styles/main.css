@@ -1,8 +1,12 @@
+html {
+  overflow-x: hidden !important;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-size: 1rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 h2 {
@@ -84,6 +88,10 @@ img {
   color: white;
 }
 
+.header-inner {
+  position: relative;
+}
+
 .header-inner::after {
   content: "";
   background: url(../images/bg-header@2x.jpg);
@@ -91,7 +99,7 @@ img {
   background-repeat: no-repeat;
   height: 236%;
   width: 87%;
-  top: -17%;
+  top: -28%;
   background-size: 1124px 1000px;
   right: -27%;
   position: absolute;
@@ -138,17 +146,14 @@ img {
 @media (max-width: 1267px) {
   .header-inner::after {
     background-position: 250px 29%;
-    width: 106%;
-    top: -39%;
+    width: 117%;
+    top: -58%;
   }
 }
 
 @media (max-width: 991px) {
   .header-inner::after {
-    right: -24%;
-    top: -38%;
-    height: 185%;
-    width: 123%;
+    display: none;
   }
 }
 
@@ -162,20 +167,17 @@ img {
   .phone {
     margin-top: 50px;
   }
-  .header-inner::after {
-    right: -46%;
-    top: -23%;
-    height: 121%;
-    width: 167%;
+}
+
+@media (max-width: 360px) {
+  .phone {
+    margin-top: 110px;
   }
 }
 
-@media (max-width: 400px) {
-  .header-inner::after {
-    right: -3%;
-    top: -28%;
-    height: 120%;
-    width: 173%;
+@media (max-width: 343px) {
+  .phone {
+    margin-top: 150px;
   }
 }
 
@@ -349,19 +351,45 @@ img {
   margin: 89px 24px 0px 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 408px) {
   .wrap-corousel-outer {
     padding: 0;
   }
-  .wrap-carousel {
-    background-size: 331px 507px;
-    padding-bottom: 30px;
+  .wrap-corousel-outer .wrap-carousel {
+    position: relative;
+    max-width: 413px;
+    padding: 148px 84px;
+    background-size: 362px 686px;
+    background-position: center center;
   }
-  .photocarousel {
-    max-width: 243px;
+  .wrap-corousel-outer .photocarousel {
+    max-width: 245px;
   }
-  .phoneImage {
+  .wrap-corousel-outer .phoneImage {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 370px) {
+  .wrap-corousel-outer {
+    padding: 0;
+  }
+  .wrap-corousel-outer .wrap-carousel {
+    max-width: 376px;
+    padding: 148px 60px;
+    background-size: 362px 686px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wrap-corousel-outer {
+    padding: 0;
+  }
+  .wrap-corousel-outer .wrap-carousel {
+    max-width: 376px;
+    background-position: -11px center;
+    padding: 148px 39px;
+    background-size: 347px 684px;
   }
 }
 
@@ -805,16 +833,21 @@ span {
   padding: 30px 0;
 }
 
-@media (max-width: 1200px) {
+.extrabutton {
+  color: black;
+  border: none;
+}
+
+@media (max-width: 991px) {
   .extrabutton {
-    padding: 1em 2em;
+    border: 2px solid;
+    color: #5b39c9;
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 413px) {
   .extrabutton {
-    padding: 0.7em 1.7em;
-    font-size: 0.8rem;
+    font-size: 12px;
   }
 }
 
@@ -1010,12 +1043,12 @@ span {
     padding: 20px;
     float: left;
     display: inline-block;
-    color: #777;
+    color: #bd6464;
     font-size: 20px;
     -webkit-transition: color linear 0.15s;
     transition: color linear 0.15s;
     position: fixed;
-    top: 8%;
+    top: 4%;
     z-index: 100;
   }
   .toggle-nav:hover, .toggle-nav.active {
